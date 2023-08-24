@@ -1,0 +1,13 @@
+# README 
+Este readme servira para falar do projeto ate o momento atual e atualizar ele a cada mudança, a ideia é ter apenas 1 mesmo repositorio para a continuação dessa atividade. CASO NÃO QUEIRA DESSE MODO POR FAVOR AVISE QUE IREI ALTERAR.
+
+## Relatorio 1
+Foi feito um codigo para criar uma classe de filmes e testar-la com vaslores pre definidos.
+
+## Relatorio 2  🔄
+Alterado o codigo do relatorio 1, foi adicionado a possibilidade de comunicação entre o usuario, tendo opções de adicionar, avaliar, marcar como assistido e listar os filmes, criando funções para cada e tambem funções para evitar repetição de codigo, como por exemplo as funções: "mostraOP" e "showlist".
+
+## Entrada de dados 
+Para a entrada de dados usei um módulo Node.js chamado "readline-sync", abaixo a isntalação do mesmo
+
+1. npm install readline-sync
