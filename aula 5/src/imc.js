@@ -7,4 +7,17 @@ function calcularIMC(peso, altura) {
     return (peso / (alturaMetros * alturaMetros)).toFixed(2); // Calcula o IMC com duas casas decimais
 }
 
-module.exports = { calcularIMC }; // Exporta a função calcularIMC
+function calculaDano(dados, face){
+    var dano = 0;
+    if (dados === 0){
+        return 'Error';
+    }
+    if (face < 2){
+        return 'Error'
+    }
+    for ( let i = 0; i < dados; i++){
+       dano += Math.floor(Math.random() * face) + 1;
+    }
+    return dano;
+}
+module.exports = { calcularIMC ,calculaDano}; // Exporta a função calcularIMC
